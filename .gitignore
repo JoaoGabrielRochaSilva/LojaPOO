@@ -1,0 +1,41 @@
+# Java: arquivos compilados e artefatos de build
+*.class
+**/build/
+**/dist/
+**/target/
+**/out/
+
+# NetBeans: arquivos privados da máquina
+**/nbproject/private/
+**/nbproject/private.properties
+**/nbproject/private.xml
+
+# IDEs e editores
+.idea/
+.vscode/
+*.iml
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+*~
+
+# Segredos e configurações locais
+.env
+.env.*
+!.env.example
+config.properties
+application-local.properties
+
+# Bibliotecas externas: baixe os JARs manualmente (veja o README) e NÃO os versione.
+# A pasta bibliotecas/ é mantida no repositório apenas pelo arquivo .gitkeep.
+bibliotecas/*.jar
+
+# Relatórios PDF gerados pelo sistema (gravados na pasta do projeto ao executar)
+LojaPOO/*.pdf
